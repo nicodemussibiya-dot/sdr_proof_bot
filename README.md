@@ -17,13 +17,17 @@ CRM Integration-Ready: Exports to CSV/JSON for HubSpot/Salesforce, with GitHub p
 Scalability & Compliance: Handles 100+ leads/session with rate-limiting, robots.txt respect, and async processing for efficiency.
 
 In a fast-paced SDR role like MSA's, this bot could 10x your pipeline velocity—hitting KPIs like 50+ qualified meetings/week while maintaining accurate records.
+
 Why build this? As an aspiring SDR, I wanted to show I can build tools that build pipelines. From research to demos, this bot mirrors the end-to-end process: prospect → qualify → engage → report.
-Key Features
+
+Key Features:
 
 Targeted Scraping: Pulls leads from Companies House (official UK registry) filtered by SIC codes (e.g., 73110 for advertising agencies) and locations (e.g., London hotspots from expanded_locations_and_sics.json).
 Data Enrichment: Auto-fetches officer details (CEOs/Directors), social links, tech stack, and triggers (e.g., recent funding via news hooks).
+
 ICP Scoring: 0-100 quality score based on geo/industry match, contact verification, and growth signals—qualifies leads like a pro.
 Psychology-Powered Outreach: Crafts emails with industry-specific pain points, value props, and CTAs (e.g., "How valuable would a 40% lead boost be for [Company]?"). Handles objections preemptively.
+
 Multi-Channel Automation: Telegram summaries, GitHub portfolio updates, and hooks for LinkedIn/Twilio (email/SMS follow-ups).
 Exhaustive Mode: Cycles through 20+ UK hotspots and 25+ SIC codes for diverse pipelines—perfect for A/B testing campaigns.
 Robust & Ethical: Playwright stealth mode evades bots, async workers for speed, and screenshot audits for missing data.
@@ -34,9 +38,8 @@ Total Leads: 15
 Avg. Quality: 82.5%
 Top Lead: PixelForge Ltd (Score: 95/100, ICP: 0.92) - CEO: Jane Doe | Email: jane@pixelforge.co.uk | SIC: 73110
 Campaign Generated: "Idea for PixelForge Ltd" - Personalized SPIN CTA: "What would it mean for PixelForge to reduce acquisition costs by 40%?"
-Live Demo
-Watch the bot in action here (2-min screencast: scraping → enrichment → outreach gen).
-Or run it yourself—see Setup below!
+
+run it yourself—see Setup below!
 
 Tech Stack:
 Category,Tools
