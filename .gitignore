@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- START: Custom additions for SDR Lead Scraper ---
+# Exclude the actual environment variables file with secrets
+.env
+
+# Exclude generated output and log files/folders
+/exports
+/logs
+# --- END: Custom additions ---
